@@ -1,0 +1,20 @@
+.sideBar {
+    background-color: dimgray;
+    float: left;
+    margin-bottom: 30px;
+
+}
+
+.sideBar li {
+    margin-left: 40px;
+    color: honeydew;
+}
+
+.canvas {
+    background-color: beige;
+}
+
+
+#description {
+    padding-top: 30px;
+}
