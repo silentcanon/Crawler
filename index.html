@@ -3,8 +3,8 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Graph Demonstration</title>
-    <link rel="stylesheet" type="text/css" href="./static/frame.css">
-    <script src="http://code.jquery.com/jquery-3.0.0.min.js"</script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -17,6 +17,7 @@
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="./static/drawGraph.js"></script>
     <script src="./static/drawGraphGroup.js"></script>
+    <link rel="stylesheet" type="text/css" href="./static/frame.css">
     <script>
         var show_desp = function(id) {
             $(".demo").hide();
@@ -81,6 +82,7 @@
                     <div class="demo" id="about">
                         <p>
                             This is the demo page for the parallel <a href="https://en.wikipedia.org/wiki/Web_crawler">web crawler</a> written in Java.
+                            The source code could be found <a href="https://github.com/silentcanon/Crawler/tree/master" target="_blank">here</a>.
                         </p>
                         <p>
                             It crawlers a certain number of pages from <a href="http://www.csd.uwo.ca/faculty/solis/cs868b/2014/index.html">this</a> starting page.
