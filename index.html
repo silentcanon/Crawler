@@ -18,28 +18,7 @@
     <script src="./static/drawGraph.js"></script>
     <script src="./static/drawGraphGroup.js"></script>
     <link rel="stylesheet" type="text/css" href="./static/frame.css">
-    <script>
-        var show_desp = function(id) {
-            $(".demo").hide();
-            $("#"+id).show();
-        }
-        var onClickDrawGraph = function() {
-            show_desp('simple-demo');
-            clearGraph();
-            drawSimple();
-        }
-        var onClickDrawGraphGroup = function() {
-            show_desp('component-demo');
-            clearGraph();
-            drawSimpleGroup();
-        }
-        var onClickAbout = function() {
-            show_desp('about');
-        }
-        $('document').ready(function() {
-            onClickAbout();
-        });
-    </script>
+
 </head>
 <style>
 .node {
@@ -122,6 +101,27 @@
             </div>
         </div>
     </div>
-
+    <script>
+        var show_desp = function(id) {
+            $(".demo").hide();
+            $("#"+id).show();
+        }
+        var onClickDrawGraph = function() {
+            show_desp('simple-demo');
+            clearGraph();
+            drawSimple();
+        }
+        var onClickDrawGraphGroup = function() {
+            show_desp('component-demo');
+            clearGraph();
+            drawSimpleGroup();
+        }
+        var onClickAbout = function() {
+            show_desp('about');
+        }
+        $('document').ready(function() {
+            onClickAbout();
+        });
+    </script>
 </body>
 </html>
